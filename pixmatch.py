@@ -10,8 +10,11 @@ from streamlit_autorefresh import st_autorefresh
 st.set_page_config(page_title = "PixMatch", page_icon="🕹️", layout = "wide", initial_sidebar_state = "expanded")
 
 vDrive = os.path.splitdrive(os.getcwd())[0]
-if vDrive == "C:": vpth = "C:/Users/Shawn/dev/utils/pixmatch/"   # local developer's disc
-else: vpth = "./"
+
+#if vDrive == "C:": vpth = "C:/Users/Shawn/dev/utils/pixmatch/"   # local developer's disc
+#else: vpth = "./"
+
+vpth = "./"
 
 sbe = """<span style='font-size: 140px;
                       border-radius: 7px;
@@ -243,6 +246,7 @@ def NewGame():
         st.info(f"{ScoreEmoji()} Score: {mystate.myscore} | Pending: {(total_cells_per_row_or_col ** 2)-len(mystate.expired_cells)}")
 
         st.markdown(horizontal_bar, True)
+        #aca
         if st.button(f"🔙 Return to Main Page", use_container_width=True):
             mystate.runpage = Main
             st.rerun()

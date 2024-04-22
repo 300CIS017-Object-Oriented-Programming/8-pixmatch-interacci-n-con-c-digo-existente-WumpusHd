@@ -1,4 +1,4 @@
-
+        
 ## Ayudas
 A continuación verás algunos textos y preguntas que pueden ayudar en el proceso de identificación de las clases, métodos, atributos y relaciones para 
 refactorizar el código del ejercicio
