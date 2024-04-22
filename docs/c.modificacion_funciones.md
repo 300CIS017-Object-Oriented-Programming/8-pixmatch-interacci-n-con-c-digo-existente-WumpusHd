@@ -16,7 +16,7 @@ Por favor, responde las siguientes preguntas basadas en tu experiencia modifican
 #### 1. ¿Cuánto tiempo te llevó entender las secciones del código relacionada con el leaderboard?
 - [ ] Menos de 10 minutos
 - [ ] Entre 10 y 30 minutos
-- [ ] Entre 30 minutos y 1 hora
+- [X] Entre 30 minutos y 1 hora
 - [ ] Más de 1 hora
 
 #### 2. ¿Cuánto tiempo te llevó entender las secciones del código relacionada con hacer que el usuario pierda si supera x cantidad de turnos?
@@ -27,11 +27,11 @@ Por favor, responde las siguientes preguntas basadas en tu experiencia modifican
 
 #### 3. ¿Consideras que estaba documentada la lógica en el código para facilitar el cambio?
 - [ ] Sí
-- [ ] No
+- [X] No
 
 #### 4. ¿Te pareció fácil identificar dónde y qué cambios realizar para aumentar el número de personas en el leaderboard de 3 a 4?
 - [ ] Muy fácil
-- [ ] Algo fácil
+- [X] Algo fácil
 - [ ] Algo difícil
 - [ ] Muy difícil
 
@@ -53,7 +53,7 @@ Por favor, responde las siguientes preguntas basadas en tu experiencia modifican
 - [ ] Menos de 10 minutos
 - [ ] Entre 10 y 30 minutos
 - [ ] Entre 30 minutos y 1 hora
-- [ ] Más de 1 hora
+- [X] Más de 1 hora
 
 #### 7. ¿Qué estrategia usaste para verificar que no habían problemas en el código fuente?
 
